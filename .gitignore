@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.dylib
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# Flask-specific
+instance/
+config.py  # If you have sensitive configs in this file
+.env  # If using dotenv for environment variables
+.env.local
+.env.production
+.env.development
+
+# Database files
+db.sqlite
+db.sqlite3
+*.db
+
+# Migrations (keep the actual migration scripts, ignore temporary files)
+migrations/
+
+# Celery & Redis-related
+celerybeat-schedule
+*.celerybeat.lock
+
+# Logs and debug
+logs/
+*.log
+nohup.out
+debug.log
+
+# Node.js / React frontend
+node_modules/
+dist/
+build/
+.yarn.lock
+package-lock.json  # If using npm
+pnpm-lock.yaml  # If using pnpm
+
+# Dependencies
+.DS_Store  # macOS system file
+Thumbs.db  # Windows system file
+
+# IDE-specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Docker-related
+docker-compose.override.yml
+*.dockerfile
+*.dockerignore
+
