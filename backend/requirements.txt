@@ -1,0 +1,6 @@
+# Python dependencies (Flask, Celery, etc.)
+Flask
+Flask-SQLAlchemy
+Celery
+psycopg2  # PostgreSQL adapter
+requests  # For FactSet API calls
