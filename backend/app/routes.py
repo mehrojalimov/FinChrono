@@ -1,0 +1,1 @@
+# API routes (e.g., for fetching stock data, handling user requests)
